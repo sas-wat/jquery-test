@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <!--script
+			  src="https://code.jquery.com/jquery-3.1.1.js"
+			  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+			  crossorigin="anonymous"></script-->
+  <script src="node_modules\jquery\dist\jquery.js"></script>
+  <script src="add.js"></script>
+</head>
+
+<body>
+  <h1>JQUERY TESTING PAGE</h1>
+  <button id="colorBlue">Make Blue</button>
+  <button id="colorGreen">Make Green</button>
+  <script>
+    function changeToBlue() {
+      $('h1').css({color: 'blue'});
+    }
+
+    function changeToGreen() {
+      $('h1').css({color: 'green'});
+    }
+
+    $('#colorBlue').click(changeToBlue);
+    $('#colorGreen').click(changeToGreen);
+
+  </script>
+</body>
+
+
+
+
+</html>
